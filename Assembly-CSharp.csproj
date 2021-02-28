@@ -411,8 +411,6 @@
      <Compile Include="Assets\createcommandline.cs" />
      <Compile Include="Assets\dropdownoculus.cs" />
      <Compile Include="Assets\readcmdlinetxt.cs" />
-     <Compile Include="Assets\scrip\collionssound.cs" />
-     <Compile Include="Assets\scrip\easter.cs" />
      <Compile Include="Assets\valuetext.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -421,7 +419,6 @@
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
-     <None Include="Assets\Logo\New Text Document.txt" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />

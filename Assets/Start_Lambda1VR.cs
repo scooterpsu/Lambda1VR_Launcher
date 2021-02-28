@@ -12,7 +12,6 @@ public class Start_Lambda1VR : MonoBehaviour
     public Button hlButton;
     public Button bsButton;
     public Button ofButton;   
-    public Button hlGoldButton; //add more buttons here If needed 
     public Button mod1Button;
     public Button mod2Button;
     public Button mod3Button;
@@ -21,8 +20,7 @@ public class Start_Lambda1VR : MonoBehaviour
     public Button mod6Button;
     public Button mod7Button;
     public Button mod8Button;
-         
-
+	public Button mod9Button;
 
     public Slider SSSlider;
     public Slider MSAA;
@@ -42,15 +40,6 @@ public class Start_Lambda1VR : MonoBehaviour
             RawImage hllogo = GetComponentInChildren<RawImage>();
             hllogo.gameObject.SetActive(true);
             hlButton.onClick.AddListener(delegate { TaskOnClick("valve"); });
-            counter = 1;
-        }
-
-        if (Directory.Exists("/sdcard/xash/HL_Gold_HD"))                   
-        {
-            hlGoldButton.gameObject.SetActive(true);
-            RawImage hllogo = GetComponentInChildren<RawImage>();
-            hllogo.gameObject.SetActive(true);
-            hlGoldButton.onClick.AddListener(delegate { TaskOnClick("HL_Gold_HD"); });
             counter = 1;
         }
 
@@ -83,27 +72,40 @@ public class Start_Lambda1VR : MonoBehaviour
         foreach (string cgame in customgames)
         {
             //Debug.Log(Path.GetFileName(cgame));            
-            if (Path.GetFileName(cgame) != "gearbox" & Path.GetFileName(cgame) != "valve" & Path.GetFileName(cgame) != "bshift" & Path.GetFileName(cgame) != "HL_Gold_HD")
+            if (Path.GetFileName(cgame) != "gearbox" & Path.GetFileName(cgame) != "valve" & Path.GetFileName(cgame) != "bshift")
             {
                 if (game == 0)
                 {
                     mod1Button.gameObject.SetActive(true);
-                    Divider.gameObject.SetActive(true);
                     mod1Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    mod1Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod1Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod1Button.GetComponentInChildren<Text>().text = "";
+                    }
+                    mod1Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
                 }
-
                 if (game == 1)
                 {
                     mod2Button.gameObject.SetActive(true);
-                    mod2Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);                    
-                    mod2Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
+                    mod2Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/"+Path.GetFileName(cgame)+".jpg"))
+                    {
+                        mod2Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod2Button.GetComponentInChildren<Text>().text = "";
+                    }
+                    mod2Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
                 }
 
                 if (game == 2)
                 {
                     mod3Button.gameObject.SetActive(true);
                     mod3Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod3Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod3Button.GetComponentInChildren<Text>().text = "";
+                    }
                     mod3Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
                 }
 
@@ -111,36 +113,73 @@ public class Start_Lambda1VR : MonoBehaviour
                 {
                     mod4Button.gameObject.SetActive(true);
                     mod4Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod4Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod4Button.GetComponentInChildren<Text>().text = "";
+                    }
                     mod4Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
+                }
+
+                if (game == 4)
+                {
+                    mod5Button.gameObject.SetActive(true);
+                    mod5Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod5Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod5Button.GetComponentInChildren<Text>().text = "";
+                    }
+                    mod5Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
                 }
 
                 if (game == 5)
                 {
-                    mod5Button.gameObject.SetActive(true);
-                    mod5Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    mod5Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
+                    mod6Button.gameObject.SetActive(true);
+                    mod6Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod6Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod6Button.GetComponentInChildren<Text>().text = "";
+                    }
+                    mod6Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
                 }
 
                 if (game == 6)
                 {
-                    mod6Button.gameObject.SetActive(true);
-                    mod6Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    mod6Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
+                    mod7Button.gameObject.SetActive(true);
+                    mod7Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod7Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod7Button.GetComponentInChildren<Text>().text = "";
+                    }
+                    mod7Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
                 }
 
                 if (game == 7)
                 {
-                    mod7Button.gameObject.SetActive(true);
-                    mod7Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    mod7Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
-                }
+                    mod8Button.gameObject.SetActive(true);
+                    mod8Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod8Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod8Button.GetComponentInChildren<Text>().text = "";
+                    }
+                    mod8Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
+                }        
 
                 if (game == 8)
                 {
-                    mod8Button.gameObject.SetActive(true);
-                    mod8Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    mod8Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
-                }                                                                                                 
+                    mod9Button.gameObject.SetActive(true);
+                    mod9Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    {
+                        mod9Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                        mod9Button.GetComponentInChildren<Text>().text = "";
+                    }
+                    mod9Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
+                }
 
                 game++;  //next game
             }
@@ -189,5 +228,20 @@ public class Start_Lambda1VR : MonoBehaviour
         packageManager.Dispose();
         launchIntent.Dispose();
 
+    }
+
+    public static Texture2D LoadJPG(string filePath)
+    {
+
+        Texture2D tex = null;
+        byte[] fileData;
+
+        if (File.Exists(filePath))
+        {
+            fileData = File.ReadAllBytes(filePath);
+            tex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
+            tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
+        }
+        return tex;
     }
 }
