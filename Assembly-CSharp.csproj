@@ -55,10 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrate.cs" />
-     <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrateSpawner.cs" />
-     <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\DestroyAfterTime.cs" />
-     <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\Shooter.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -392,7 +388,6 @@
      <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
      <Compile Include="Assets\RefreshCmdLine.cs" />
-     <Compile Include="Assets\RotateLambda.cs" />
      <Compile Include="Assets\SaveCommand.cs" />
      <Compile Include="Assets\Start_Custom.cs" />
      <Compile Include="Assets\Start_Lambda1VR.cs" />
@@ -406,7 +401,6 @@
      <Compile Include="Assets\Tales From The Rift\Gaze\Demo\GazeCrosshairOnOff.cs" />
      <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModule.cs" />
      <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModuleCrosshair.cs" />
-     <Compile Include="Assets\ToggleUnsupported.cs" />
      <Compile Include="Assets\avoidMSAA3.cs" />
      <Compile Include="Assets\createcommandline.cs" />
      <Compile Include="Assets\dropdownoculus.cs" />

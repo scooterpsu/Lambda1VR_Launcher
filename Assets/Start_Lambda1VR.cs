@@ -10,8 +10,12 @@ public class Start_Lambda1VR : MonoBehaviour
 {
 
     public Button hlButton;
+    public Texture hlhorizontal;
     public Button bsButton;
-    public Button ofButton;   
+    public Texture bshorizontal;
+    public Button ofButton;
+    public Texture ofhorizontal;
+
     public Button mod1Button;
     public Button mod2Button;
     public Button mod3Button;
@@ -37,8 +41,6 @@ public class Start_Lambda1VR : MonoBehaviour
         if (Directory.Exists("/sdcard/xash/valve"))                   //check for folders
         {
             hlButton.gameObject.SetActive(true);
-            RawImage hllogo = GetComponentInChildren<RawImage>();
-            hllogo.gameObject.SetActive(true);
             hlButton.onClick.AddListener(delegate { TaskOnClick("valve"); });
             counter = 1;
         }
@@ -46,8 +48,6 @@ public class Start_Lambda1VR : MonoBehaviour
         if (Directory.Exists("/sdcard/xash/bshift"))
         {        
             bsButton.gameObject.SetActive(true);
-            RawImage bslogo = GetComponentInChildren<RawImage>();
-            bslogo.gameObject.SetActive(true);
             bsButton.onClick.AddListener(delegate { TaskOnClick("bshift"); });
             counter = 1;
         }
@@ -55,8 +55,6 @@ public class Start_Lambda1VR : MonoBehaviour
         if (Directory.Exists("/sdcard/xash/gearbox"))
         {
             ofButton.gameObject.SetActive(true);
-            RawImage oflogo = GetComponentInChildren<RawImage>();
-            oflogo.gameObject.SetActive(true);
             ofButton.onClick.AddListener(delegate { TaskOnClick("gearbox"); });
             counter = 1;
         }
@@ -76,6 +74,17 @@ public class Start_Lambda1VR : MonoBehaviour
             {
                 if (game == 0)
                 {
+                    //Mods found, adjust hl logos
+                    hlButton.GetComponentInChildren<RawImage>().texture = hlhorizontal;
+                    hlButton.GetComponentInChildren<RawImage>().GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f,215.0f);
+                    hlButton.GetComponentInChildren<RawImage>().GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
+                    bsButton.GetComponentInChildren<RawImage>().texture = bshorizontal;
+                    bsButton.GetComponentInChildren<RawImage>().GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f, 215.0f);
+                    bsButton.GetComponentInChildren<RawImage>().GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
+                    ofButton.GetComponentInChildren<RawImage>().texture = ofhorizontal;
+                    ofButton.GetComponentInChildren<RawImage>().GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f, 215.0f);
+                    ofButton.GetComponentInChildren<RawImage>().GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
+
                     mod1Button.gameObject.SetActive(true);
                     mod1Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
                     if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
