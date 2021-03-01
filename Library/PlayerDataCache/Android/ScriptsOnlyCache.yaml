@@ -33,8 +33,6 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.OVRInputModule
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -209,9 +207,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14968}
     - Class: 114
-      Script: {instanceID: 16846}
+      Script: {instanceID: 16840}
     - Class: 114
-      Script: {instanceID: 16876}
+      Script: {instanceID: 16870}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
