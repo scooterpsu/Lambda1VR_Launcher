@@ -85,7 +85,7 @@ public class Start_Lambda1VR : MonoBehaviour
                     hlImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f,215.0f);
                     hlImage.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
 
-                    bsButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(-368.0f, 36.5f);
+                    bsButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(-365.0f, 36.5f);
                     bsImage = bsButton.GetComponentInChildren<RawImage>();
                     bsImage.texture = bshorizontal;
                     bsImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f, 215.0f);
