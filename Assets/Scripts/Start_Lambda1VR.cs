@@ -80,18 +80,24 @@ public class Start_Lambda1VR : MonoBehaviour
                     RawImage ofImage;
 
                     hlButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 36.5f);
+                    hlButton.GetComponent<BoxCollider>().size = new Vector3(460.0f, 215.0f, 0.5f);
+                    hlButton.GetComponent<BoxCollider>().center = new Vector3(0.0f, 237.5f, 0.0f);
                     hlImage = hlButton.GetComponentInChildren<RawImage>();
                     hlImage.texture = hlhorizontal;
                     hlImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f,215.0f);
                     hlImage.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
 
                     bsButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(-365.0f, 36.5f);
+                    bsButton.GetComponent<BoxCollider>().size = new Vector3(460.0f, 215.0f, 0.5f);
+                    bsButton.GetComponent<BoxCollider>().center = new Vector3(0.0f, 237.5f, 0.0f);
                     bsImage = bsButton.GetComponentInChildren<RawImage>();
                     bsImage.texture = bshorizontal;
                     bsImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f, 215.0f);
                     bsImage.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
 
                     ofButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(365.0f, 36.5f);
+                    ofButton.GetComponent<BoxCollider>().size = new Vector3(460.0f, 215.0f, 0.5f);
+                    ofButton.GetComponent<BoxCollider>().center = new Vector3(0.0f, 237.5f, 0.0f);
                     ofImage = ofButton.GetComponentInChildren<RawImage>();
                     ofImage.texture = ofhorizontal;
                     ofImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f, 215.0f);

@@ -74,6 +74,7 @@
      <Compile Include="Assets\Oculus\VR\Editor\OVRPluginUpdaterStub.cs" />
      <Compile Include="Assets\Oculus\VR\Editor\OVRProjectConfig.cs" />
      <Compile Include="Assets\Oculus\VR\Editor\OVRScreenshotWizard.cs" />
+     <Compile Include="Assets\Oculus\VR\Editor\OVRShaderBuildProcessor.cs" />
      <Compile Include="Assets\Oculus\VR\Editor\OVRSystemProfilerPanel.cs" />
      <Compile Include="Assets\Oculus\VR\Editor\PathHelper.cs" />
      <None Include="Assets\Oculus\VR\Editor\network_sec_config.xml" />
