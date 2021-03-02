@@ -63,11 +63,6 @@
      <Compile Include="Assets\OVRInputSelection\InputSystem\OVRRawRaycaster.cs" />
      <Compile Include="Assets\OVRInputSelection\InputSystem\OVRRayPointerEventData.cs" />
      <Compile Include="Assets\OVRInputSelection\InputSystem\OVRRaycaster.cs" />
-     <Compile Include="Assets\OVRInputSelection\Scripts\BackButtonLogic.cs" />
-     <Compile Include="Assets\OVRInputSelection\Scripts\MainMenuInteraction.cs" />
-     <Compile Include="Assets\OVRInputSelection\Scripts\PhysicsInteraction.cs" />
-     <Compile Include="Assets\OVRInputSelection\Scripts\RawInteraction.cs" />
-     <Compile Include="Assets\OVRInputSelection\Scripts\UIInteraction.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPAmbisonicsNative.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPAudioSource.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPProfiler.cs" />
