@@ -230,7 +230,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &18543438
 GameObject:
@@ -306,7 +306,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 690, z: 0.5}
+  m_Size: {x: 460, y: 690, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &18543441
 MonoBehaviour:
@@ -366,7 +366,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &29486913
 PrefabInstance:
@@ -557,7 +557,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -212, y: -142}
-  m_SizeDelta: {x: 105.32, y: 29.17}
+  m_SizeDelta: {x: 105.32, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30702352
 MonoBehaviour:
@@ -672,7 +672,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 105.32, y: 29.17, z: 1}
+  m_Size: {x: 105.32, y: 29.17, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &41113197 stripped
 GameObject:
@@ -691,7 +691,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &54485824
 GameObject:
@@ -784,7 +784,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &67287296
 GameObject:
@@ -880,7 +880,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &67287300
 CanvasRenderer:
@@ -943,7 +943,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &91680052
 GameObject:
@@ -1036,7 +1036,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &101687500 stripped
 GameObject:
@@ -1055,7 +1055,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &103524314 stripped
 GameObject:
@@ -1074,7 +1074,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &107165983
 GameObject:
@@ -1249,7 +1249,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &109245459
 GameObject:
@@ -1342,7 +1342,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &120331494 stripped
 GameObject:
@@ -1361,7 +1361,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &156511138
 GameObject:
@@ -1460,7 +1460,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &209386278 stripped
 GameObject:
@@ -1479,7 +1479,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &210286601
 GameObject:
@@ -1534,7 +1534,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &216470511 stripped
 GameObject:
@@ -1553,7 +1553,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &219781002
 PrefabInstance:
@@ -2639,7 +2639,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &228828153 stripped
 GameObject:
@@ -2658,7 +2658,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &238580637 stripped
 Transform:
@@ -2761,7 +2761,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &273512031
 GameObject:
@@ -2851,7 +2851,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &278435001
 GameObject:
@@ -2946,7 +2946,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 690, z: 0.5}
+  m_Size: {x: 460, y: 690, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &278435005
 CanvasRenderer:
@@ -2973,7 +2973,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &290921801
 GameObject:
@@ -3014,7 +3014,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -142}
-  m_SizeDelta: {x: 105.32, y: 29.17}
+  m_SizeDelta: {x: 105.32, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290921803
 MonoBehaviour:
@@ -3121,7 +3121,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 105.32, y: 29.17, z: 1}
+  m_Size: {x: 105.32, y: 29.17, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &292703273 stripped
 GameObject:
@@ -3140,7 +3140,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &295093113 stripped
 GameObject:
@@ -3159,7 +3159,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &304519079
 GameObject:
@@ -3249,7 +3249,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &324899630 stripped
 GameObject:
@@ -3268,7 +3268,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &335434331
 GameObject:
@@ -3343,7 +3343,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &335434334
 CanvasRenderer:
@@ -3444,84 +3444,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350912749}
-  m_CullTransparentMesh: 0
---- !u!1 &354205578
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 354205579}
-  - component: {fileID: 354205581}
-  - component: {fileID: 354205580}
-  m_Layer: 5
-  m_Name: Label
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &354205579
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354205578}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 774335848}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9, y: -0.5}
-  m_SizeDelta: {x: -28, y: -3}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &354205580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354205578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 200
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Show Unsupported Games
---- !u!222 &354205581
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354205578}
   m_CullTransparentMesh: 0
 --- !u!1 &363283651
 GameObject:
@@ -3740,7 +3662,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Set to Default
+  m_Text: Reset Defaults
 --- !u!222 &367049741
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3766,7 +3688,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &383639080 stripped
 GameObject:
@@ -3828,7 +3750,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -318, y: -142}
-  m_SizeDelta: {x: 105.32, y: 29.17}
+  m_SizeDelta: {x: 105.32, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &410345584
 MonoBehaviour:
@@ -3935,7 +3857,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 105.32, y: 29.17, z: 1}
+  m_Size: {x: 105.32, y: 29.17, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &413255491 stripped
 GameObject:
@@ -3954,7 +3876,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &419418665
 GameObject:
@@ -4211,96 +4133,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &442225400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 442225401}
-  - component: {fileID: 442225403}
-  - component: {fileID: 442225402}
-  - component: {fileID: 442225404}
-  m_Layer: 5
-  m_Name: Background
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &442225401
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442225400}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1080856738}
-  m_Father: {fileID: 774335848}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -2, y: -12}
-  m_SizeDelta: {x: 33.9, y: 29.8}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &442225402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442225400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &442225403
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442225400}
-  m_CullTransparentMesh: 0
---- !u!65 &442225404
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442225400}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 33.9, y: 29.8, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &442777926
 GameObject:
@@ -4375,7 +4208,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &442777929
 CanvasRenderer:
@@ -4652,7 +4485,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 180, y: 96, z: 1}
+  m_Size: {x: 180, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &457709078 stripped
 GameObject:
@@ -4671,7 +4504,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &466759591 stripped
 GameObject:
@@ -4690,7 +4523,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &466907648 stripped
 GameObject:
@@ -4709,7 +4542,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &470013389 stripped
 GameObject:
@@ -4728,7 +4561,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &478725439 stripped
 GameObject:
@@ -4747,7 +4580,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &514339358
 GameObject:
@@ -4843,7 +4676,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &514339362
 CanvasRenderer:
@@ -4870,7 +4703,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &519484591 stripped
 GameObject:
@@ -4889,7 +4722,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &539134800 stripped
 GameObject:
@@ -4908,7 +4741,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &551143999 stripped
 GameObject:
@@ -4927,7 +4760,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &554022270
 GameObject:
@@ -5020,7 +4853,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &566412138
 GameObject:
@@ -5113,7 +4946,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &579762888
 GameObject:
@@ -5284,7 +5117,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &602564313 stripped
 GameObject:
@@ -5303,7 +5136,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &635725020
 GameObject:
@@ -5392,7 +5225,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 33.9, y: 29.8, z: 1}
+  m_Size: {x: 33.9, y: 29.8, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &647795033 stripped
 GameObject:
@@ -5411,7 +5244,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &681831867
 GameObject:
@@ -5507,7 +5340,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &681831871
 CanvasRenderer:
@@ -5697,7 +5530,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &727677019
 GameObject:
@@ -5880,7 +5713,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!20 &744968141 stripped
 Camera:
@@ -6061,7 +5894,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &756293928 stripped
 GameObject:
@@ -6080,7 +5913,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &765671879 stripped
 GameObject:
@@ -6099,7 +5932,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &772977111
 GameObject:
@@ -6192,104 +6025,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &774335847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 774335848}
-  - component: {fileID: 774335850}
-  m_Layer: 5
-  m_Name: ShowUnsupportedGames
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &774335848
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774335847}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 442225401}
-  - {fileID: 354205579}
-  m_Father: {fileID: 935492084}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330, y: -198.1}
-  m_SizeDelta: {x: 407.6, y: 27.8}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &774335850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774335847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9529412, g: 0.48235294, b: 0.12941177, a: 1}
-    m_PressedColor: {r: 0.9529412, g: 0.48235294, b: 0.12941177, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Highlighted
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 442225402}
-  toggleTransition: 1
-  graphic: {fileID: 1080856739}
-  m_Group: {fileID: 0}
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1160517938}
-        m_MethodName: SetActive
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_IsOn: 1
 --- !u!1 &775488541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 120548, guid: 252cbbdc2ceea3a4bbf93af0316dd731,
@@ -6307,7 +6044,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &780738236 stripped
 GameObject:
@@ -6326,7 +6063,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &782339789 stripped
 GameObject:
@@ -6345,7 +6082,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &815453162
 GameObject:
@@ -6459,7 +6196,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 484, y: 40, z: 1}
+  m_Size: {x: 484, y: 40, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &818685325
 GameObject:
@@ -6556,7 +6293,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &829519820 stripped
 GameObject:
@@ -6575,7 +6312,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &841599220 stripped
 GameObject:
@@ -6594,7 +6331,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &842854537 stripped
 GameObject:
@@ -6613,7 +6350,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &845200651
 GameObject:
@@ -6793,7 +6530,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &859051488 stripped
 GameObject:
@@ -6812,7 +6549,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &876385591
 GameObject:
@@ -6888,7 +6625,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 390.6001, y: 18.2}
-  m_SizeDelta: {x: 128, y: 29.17}
+  m_SizeDelta: {x: 128, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &881386261
 BoxCollider:
@@ -6901,7 +6638,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 128, y: 29.17, z: 1}
+  m_Size: {x: 128, y: 29.17, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &881386262
 MonoBehaviour:
@@ -7100,7 +6837,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &908245143
 CanvasRenderer:
@@ -7225,7 +6962,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &917532614
 CanvasRenderer:
@@ -7252,7 +6989,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &928144273
 GameObject:
@@ -7342,7 +7079,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &931308548
 GameObject:
@@ -7418,7 +7155,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 690, z: 0.5}
+  m_Size: {x: 460, y: 690, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &931308551
 MonoBehaviour:
@@ -7530,9 +7267,9 @@ BoxCollider:
   m_GameObject: {fileID: 935492079}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1140, y: 571, z: -0.5}
+  m_Size: {x: 1140, y: 571, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!223 &935492083
 Canvas:
@@ -7581,11 +7318,10 @@ RectTransform:
   - {fileID: 30702351}
   - {fileID: 1188603818}
   - {fileID: 290921802}
-  - {fileID: 774335848}
   - {fileID: 1162397489}
   - {fileID: 1485064528}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7609,7 +7345,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &954321353
 GameObject:
@@ -7706,7 +7442,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &960692872
 GameObject:
@@ -7802,7 +7538,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &960692876
 CanvasRenderer:
@@ -7924,7 +7660,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 484, y: 40, z: 1}
+  m_Size: {x: 484, y: 40, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &975499639 stripped
 GameObject:
@@ -7943,7 +7679,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 396, y: 96, z: 1}
+  m_Size: {x: 396, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &994355002 stripped
 GameObject:
@@ -7962,7 +7698,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1002941545 stripped
 GameObject:
@@ -7981,7 +7717,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1007222643 stripped
 GameObject:
@@ -8000,7 +7736,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1010869585
 GameObject:
@@ -8097,7 +7833,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 396, y: 96, z: 1}
+  m_Size: {x: 396, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1019744774
 GameObject:
@@ -8194,7 +7930,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1045998034
 GameObject:
@@ -8266,80 +8002,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045998034}
-  m_CullTransparentMesh: 0
---- !u!1 &1080856737
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1080856738}
-  - component: {fileID: 1080856740}
-  - component: {fileID: 1080856739}
-  m_Layer: 5
-  m_Name: Checkmark
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1080856738
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080856737}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 442225401}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5, y: -0.9}
-  m_SizeDelta: {x: 32, y: 32.2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1080856739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080856737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1080856740
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080856737}
   m_CullTransparentMesh: 0
 --- !u!1 &1101956870
 GameObject:
@@ -8466,7 +8128,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104104139
 GameObject:
@@ -8497,16 +8159,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 1104104139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 472cd28b041d447a4b0f2b5c603034aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 3
-  m_BlockingMask:
+  trackingSpace: {fileID: 238580637}
+  primaryButton: 8192
+  secondaryButton: 1024
+  tertiaryButton: 1
+  primaryPinchFinger: 1
+  secondaryPinchFinger: 2
+  tertiaryPinchFinger: 3
+  excludeLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
-  pointer: {fileID: 0}
-  sortOrder: 0
+    m_Bits: 0
+  raycastDistance: 500
+  onHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  onHover:
+    m_PersistentCalls:
+      m_Calls: []
+  onPrimarySelect:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondarySelect:
+    m_PersistentCalls:
+      m_Calls: []
+  onTertiarySelect:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!223 &1104104142
 Canvas:
   m_ObjectHideFlags: 0
@@ -8547,7 +8231,7 @@ RectTransform:
   - {fileID: 845200654}
   - {fileID: 1160517942}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8565,7 +8249,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1127.145, y: 648.8064, z: 0.01}
+  m_Size: {x: 1127.145, y: 648.8064, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1104104145
 MonoBehaviour:
@@ -8681,7 +8365,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1160517942}
   - component: {fileID: 1160517941}
-  - component: {fileID: 1160517940}
   - component: {fileID: 1160517939}
   m_Layer: 5
   m_Name: OtherGamesCanvas
@@ -8707,28 +8390,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1160517940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160517938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
 --- !u!223 &1160517941
 Canvas:
   m_ObjectHideFlags: 0
@@ -8810,11 +8471,11 @@ RectTransform:
   - {fileID: 635725021}
   - {fileID: 1010869586}
   m_Father: {fileID: 935492084}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330, y: -236.5}
+  m_AnchoredPosition: {x: -330, y: -198.1}
   m_SizeDelta: {x: 407.6, y: 27.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162397490
@@ -8928,7 +8589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9044,7 +8705,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1177147012 stripped
 GameObject:
@@ -9063,7 +8724,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1180088217 stripped
 GameObject:
@@ -9082,7 +8743,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1181531824 stripped
 GameObject:
@@ -9101,7 +8762,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1183858981 stripped
 GameObject:
@@ -9120,7 +8781,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1188603817
 GameObject:
@@ -9161,7 +8822,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -106, y: -142}
-  m_SizeDelta: {x: 105.32, y: 29.17}
+  m_SizeDelta: {x: 105.32, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188603819
 MonoBehaviour:
@@ -9272,7 +8933,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 105.32, y: 29.17, z: 1}
+  m_Size: {x: 105.32, y: 29.17, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1205300002 stripped
 GameObject:
@@ -9291,7 +8952,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1208626375
 GameObject:
@@ -9346,7 +9007,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1229533387
 GameObject:
@@ -9436,7 +9097,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1252130577 stripped
 GameObject:
@@ -9455,7 +9116,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1256390681 stripped
 GameObject:
@@ -9474,7 +9135,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1256575376
 GameObject:
@@ -9570,7 +9231,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 215, z: 0.5}
+  m_Size: {x: 460, y: 215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &1256575380
 CanvasRenderer:
@@ -9597,7 +9258,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1262066184
 GameObject:
@@ -9675,7 +9336,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1275624296
 GameObject:
@@ -9729,7 +9390,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 484, y: 40, z: 1}
+  m_Size: {x: 484, y: 40, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1275624299
 MonoBehaviour:
@@ -9820,8 +9481,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 706139878}
+  - {fileID: 2071654903}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1288643531
 GameObject:
@@ -9981,7 +9643,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1328093344 stripped
 GameObject:
@@ -10000,7 +9662,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1332860055 stripped
 GameObject:
@@ -10019,7 +9681,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1333761421 stripped
 GameObject:
@@ -10038,7 +9700,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 180, y: 96, z: 1}
+  m_Size: {x: 180, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1370483427 stripped
 GameObject:
@@ -10057,7 +9719,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1389353363 stripped
 GameObject:
@@ -10076,7 +9738,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1394624070 stripped
 GameObject:
@@ -10095,7 +9757,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1396993203
 GameObject:
@@ -10369,7 +10031,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 605, y: 31.215, z: 1}
+  m_Size: {x: 605, y: 31.215, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1420406416
 GameObject:
@@ -10480,7 +10142,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1435979926
 GameObject:
@@ -10574,7 +10236,7 @@ RectTransform:
   m_Children:
   - {fileID: 1135704868}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10598,7 +10260,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1439512876
 GameObject:
@@ -10697,7 +10359,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1454238664 stripped
 GameObject:
@@ -10716,7 +10378,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1470890894 stripped
 GameObject:
@@ -10735,7 +10397,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1479494705
 GameObject:
@@ -10838,7 +10500,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1514930841
 GameObject:
@@ -10935,7 +10597,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1526273436
 GameObject:
@@ -11068,7 +10730,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1557668511
 GameObject:
@@ -11161,7 +10823,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1581564319 stripped
 GameObject:
@@ -11180,7 +10842,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 396, y: 96, z: 1}
+  m_Size: {x: 396, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1582696502
 GameObject:
@@ -11313,7 +10975,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 180, y: 96, z: 1}
+  m_Size: {x: 180, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1619212506 stripped
 GameObject:
@@ -11332,7 +10994,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1619334032
 GameObject:
@@ -11364,7 +11026,7 @@ Transform:
   - {fileID: 447056474}
   - {fileID: 1833413259}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1625640819 stripped
 GameObject:
@@ -11383,7 +11045,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1635958320
 GameObject:
@@ -11788,7 +11450,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1731154519 stripped
 GameObject:
@@ -11807,7 +11469,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1738103411
 GameObject:
@@ -11911,7 +11573,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1750908955 stripped
 GameObject:
@@ -11930,7 +11592,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1756566455
 GameObject:
@@ -12063,7 +11725,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1775299113 stripped
 GameObject:
@@ -12082,7 +11744,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1796674725 stripped
 GameObject:
@@ -12101,7 +11763,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1805154500
 PrefabInstance:
@@ -12289,7 +11951,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1816436836
 GameObject:
@@ -12439,7 +12101,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 484, y: 40, z: 1}
+  m_Size: {x: 484, y: 40, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1833413258
 GameObject:
@@ -12679,7 +12341,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1861695680 stripped
 GameObject:
@@ -12698,7 +12360,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1882035698 stripped
 GameObject:
@@ -12717,7 +12379,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1883246757 stripped
 GameObject:
@@ -12736,7 +12398,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1889285313 stripped
 GameObject:
@@ -12755,7 +12417,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 396, y: 96, z: 1}
+  m_Size: {x: 396, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1908534846
 GameObject:
@@ -12916,7 +12578,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1923466907
 GameObject:
@@ -13006,7 +12668,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1941035835
 GameObject:
@@ -13117,7 +12779,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1952499211 stripped
 GameObject:
@@ -13136,7 +12798,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 130, y: 96, z: 1}
+  m_Size: {x: 130, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1965972046 stripped
 GameObject:
@@ -13155,7 +12817,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1968728973
 GameObject:
@@ -13253,7 +12915,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1980535639 stripped
 GameObject:
@@ -13272,7 +12934,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2004553354 stripped
 GameObject:
@@ -13291,7 +12953,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2013366113
 GameObject:
@@ -13466,7 +13128,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2062057143 stripped
 GameObject:
@@ -13485,7 +13147,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2063662049 stripped
 GameObject:
@@ -13504,7 +13166,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2071654899
 GameObject:
@@ -13594,11 +13256,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071654899}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1.4525656, y: 1, z: 1.6937258}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 1279221132}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2079240351 stripped
 GameObject:
@@ -13617,7 +13279,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 180, y: 96, z: 1}
+  m_Size: {x: 180, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2080258550 stripped
 GameObject:
@@ -13636,7 +13298,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2087538310 stripped
 GameObject:
@@ -13655,7 +13317,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2097419087 stripped
 GameObject:
@@ -13674,7 +13336,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 101, y: 96, z: 1}
+  m_Size: {x: 101, y: 96, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2119099197 stripped
 Transform:
