@@ -14,7 +14,7 @@ public class HoverFix : MonoBehaviour
     public void OnHoverExit(Transform t)
     {
         ExecuteEvents.Execute(t.gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerExitHandler);
-        //ExecuteEvents.Execute(t.gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.deselectHandler);
+        ExecuteEvents.Execute(t.gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.deselectHandler);
     }
 
 }
