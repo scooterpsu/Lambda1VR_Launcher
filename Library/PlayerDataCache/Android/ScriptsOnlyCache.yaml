@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - ControllerSelection.OVRPhysicsRaycaster
     - ControllerSelection.OVRPointerVisualizer
     - ControllerSelection.OVRRawRaycaster
+    - HoverFix
     - ONSPSettings
     - RefreshCmdLine
     - Start_Custom
@@ -36,6 +37,8 @@ ScriptsOnlyBuild:
     - OVRSkeletonRenderer
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -54,6 +57,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
@@ -108,6 +112,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 109
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11386}
     - Class: 114
       Script: {instanceID: 11474}
     - Class: 114
@@ -173,41 +179,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 13688}
+      Script: {instanceID: 13510}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 13690}
     - Class: 114
-      Script: {instanceID: 13798}
+      Script: {instanceID: 13712}
     - Class: 114
-      Script: {instanceID: 13890}
+      Script: {instanceID: 13800}
     - Class: 114
-      Script: {instanceID: 13970}
+      Script: {instanceID: 13892}
     - Class: 114
-      Script: {instanceID: 14036}
+      Script: {instanceID: 13972}
     - Class: 114
-      Script: {instanceID: 14054}
+      Script: {instanceID: 14038}
     - Class: 114
       Script: {instanceID: 14056}
     - Class: 114
-      Script: {instanceID: 14134}
+      Script: {instanceID: 14058}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 14136}
     - Class: 114
-      Script: {instanceID: 14238}
+      Script: {instanceID: 14178}
     - Class: 114
-      Script: {instanceID: 14512}
+      Script: {instanceID: 14240}
     - Class: 114
       Script: {instanceID: 14514}
     - Class: 114
-      Script: {instanceID: 14536}
+      Script: {instanceID: 14516}
     - Class: 114
-      Script: {instanceID: 14560}
+      Script: {instanceID: 14538}
     - Class: 114
-      Script: {instanceID: 16628}
+      Script: {instanceID: 14562}
     - Class: 114
-      Script: {instanceID: 16692}
+      Script: {instanceID: 16632}
     - Class: 114
-      Script: {instanceID: 25768}
+      Script: {instanceID: 16696}
+    - Class: 114
+      Script: {instanceID: 27240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -971,6 +979,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HoverFix
   - hash:
       serializedVersion: 2
       Hash: 318c6c13a19c9fac98135ae14889de1b

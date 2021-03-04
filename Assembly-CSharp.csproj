@@ -74,6 +74,7 @@
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
+     <Compile Include="Assets\Scripts\HoverFix.cs" />
      <Compile Include="Assets\Scripts\RefreshCmdLine.cs" />
      <Compile Include="Assets\Scripts\SaveCommand.cs" />
      <Compile Include="Assets\Scripts\Start_Custom.cs" />
