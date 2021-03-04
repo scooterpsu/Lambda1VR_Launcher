@@ -9,57 +9,45 @@ using UnityEngine.EventSystems;
 public class Start_Lambda1VR : MonoBehaviour
 {
 
-    public Button hlButton;
-    public Texture hlhorizontal;
-    public Button bsButton;
-    public Texture bshorizontal;
-    public Button ofButton;
-    public Texture ofhorizontal;
+    public Texture hlVertical;
+    public Texture hlHorizontal;
+    public Texture bsVertical;
+    public Texture bsHorizontal;
+    public Texture ofHorizontal;
+    public Texture ofVertical;
 
-    public Button mod1Button;
-    public Button mod2Button;
-    public Button mod3Button;
-    public Button mod4Button;
-    public Button mod5Button;
-    public Button mod6Button;
-    public Button mod7Button;
-    public Button mod8Button;
-	public Button mod9Button;
+    public GameObject launchTilePrefab;
+    public GameObject launchPosterPrefab;
+    public Transform GamesCanvas;
+    private Texture ModTexture;
+    private string ModTitle;
 
     public Slider SSSlider;
     public Slider MSAA;
     public Slider CPU;
     public Slider GPU;
     public Text Failtext;
-    public Text Divider;
     private int counter;
 
     void Start()
     {
-        counter = 0;
         //Check what game is even installed
-        if (Directory.Exists("/sdcard/xash/valve"))                   //check for folders
+        if (Directory.Exists("/sdcard/xash/valve") || Directory.Exists("/sdcard/xash/gearbox") || Directory.Exists("/sdcard/xash/bshift"))
         {
-            hlButton.gameObject.SetActive(true);
-            hlButton.onClick.AddListener(delegate { TaskOnClick("valve"); });
-            counter = 1;
+            if (Directory.Exists("/sdcard/xash/bshift"))
+            {
+                addTile(launchPosterPrefab, bsVertical, "", "bshift");
+            }
+            if (Directory.Exists("/sdcard/xash/valve"))
+            {
+                addTile(launchPosterPrefab, hlVertical, "", "valve");
+            }
+            if (Directory.Exists("/sdcard/xash/gearbox"))
+            {
+                addTile(launchPosterPrefab, ofVertical, "", "gearbox");
+            }
         }
-
-        if (Directory.Exists("/sdcard/xash/bshift"))
-        {        
-            bsButton.gameObject.SetActive(true);
-            bsButton.onClick.AddListener(delegate { TaskOnClick("bshift"); });
-            counter = 1;
-        }
-
-        if (Directory.Exists("/sdcard/xash/gearbox"))
-        {
-            ofButton.gameObject.SetActive(true);
-            ofButton.onClick.AddListener(delegate { TaskOnClick("gearbox"); });
-            counter = 1;
-        }
-
-        if (counter == 0)
+        else
         {
             Failtext.gameObject.SetActive(true);
         }
@@ -74,147 +62,52 @@ public class Start_Lambda1VR : MonoBehaviour
             {
                 if (game == 0)
                 {
-                    //Mods found, adjust hl/bs/of boxart
-                    RawImage hlImage;
-                    RawImage bsImage;
-                    RawImage ofImage;
-
-                    hlButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 36.5f);
-                    hlButton.GetComponent<BoxCollider>().size = new Vector3(460.0f, 215.0f, 0.5f);
-                    hlButton.GetComponent<BoxCollider>().center = new Vector3(0.0f, 237.5f, 0.0f);
-                    hlImage = hlButton.GetComponentInChildren<RawImage>();
-                    hlImage.texture = hlhorizontal;
-                    hlImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f,215.0f);
-                    hlImage.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
-
-                    bsButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(-365.0f, 36.5f);
-                    bsButton.GetComponent<BoxCollider>().size = new Vector3(460.0f, 215.0f, 0.5f);
-                    bsButton.GetComponent<BoxCollider>().center = new Vector3(0.0f, 237.5f, 0.0f);
-                    bsImage = bsButton.GetComponentInChildren<RawImage>();
-                    bsImage.texture = bshorizontal;
-                    bsImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f, 215.0f);
-                    bsImage.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
-
-                    ofButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(365.0f, 36.5f);
-                    ofButton.GetComponent<BoxCollider>().size = new Vector3(460.0f, 215.0f, 0.5f);
-                    ofButton.GetComponent<BoxCollider>().center = new Vector3(0.0f, 237.5f, 0.0f);
-                    ofImage = ofButton.GetComponentInChildren<RawImage>();
-                    ofImage.texture = ofhorizontal;
-                    ofImage.GetComponent<RectTransform>().sizeDelta = new Vector2(460.0f, 215.0f);
-                    ofImage.GetComponent<RectTransform>().anchoredPosition = new Vector2(0.0f, 237.5f);
-
-                    mod1Button.gameObject.SetActive(true);
-                    mod1Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
+                    //Clear out posters
+                    foreach (Transform child in GamesCanvas)
                     {
-                        mod1Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod1Button.GetComponentInChildren<Text>().text = "";
+                        GameObject.Destroy(child.gameObject);
                     }
-                    mod1Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
-                }
-                if (game == 1)
-                {
-                    mod2Button.gameObject.SetActive(true);
-                    mod2Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/"+Path.GetFileName(cgame)+".jpg"))
+
+                    //Add tiles instead
+                    if (Directory.Exists("/sdcard/xash/bshift"))
                     {
-                        mod2Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod2Button.GetComponentInChildren<Text>().text = "";
+                        addTile(launchTilePrefab, bsHorizontal, "", "bshift");
                     }
-                    mod2Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
+                    if (Directory.Exists("/sdcard/xash/valve"))
+                    {
+                        addTile(launchTilePrefab, hlHorizontal, "", "valve");
+                    }
+                    if (Directory.Exists("/sdcard/xash/gearbox"))
+                    {
+                        addTile(launchTilePrefab, ofHorizontal, "", "gearbox");
+                    }
                 }
 
-                if (game == 2)
+                //Dynamically add buttons for all mods found
+                ModTitle = Path.GetFileName(cgame);
+                ModTexture = null;
+                if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
                 {
-                    mod3Button.gameObject.SetActive(true);
-                    mod3Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                    {
-                        mod3Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod3Button.GetComponentInChildren<Text>().text = "";
-                    }
-                    mod3Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
+                    ModTexture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                    ModTitle = "";
                 }
-
-                if (game == 3)
-                {
-                    mod4Button.gameObject.SetActive(true);
-                    mod4Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                    {
-                        mod4Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod4Button.GetComponentInChildren<Text>().text = "";
-                    }
-                    mod4Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
-                }
-
-                if (game == 4)
-                {
-                    mod5Button.gameObject.SetActive(true);
-                    mod5Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                    {
-                        mod5Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod5Button.GetComponentInChildren<Text>().text = "";
-                    }
-                    mod5Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
-                }
-
-                if (game == 5)
-                {
-                    mod6Button.gameObject.SetActive(true);
-                    mod6Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                    {
-                        mod6Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod6Button.GetComponentInChildren<Text>().text = "";
-                    }
-                    mod6Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
-                }
-
-                if (game == 6)
-                {
-                    mod7Button.gameObject.SetActive(true);
-                    mod7Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                    {
-                        mod7Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod7Button.GetComponentInChildren<Text>().text = "";
-                    }
-                    mod7Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
-                }
-
-                if (game == 7)
-                {
-                    mod8Button.gameObject.SetActive(true);
-                    mod8Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                    {
-                        mod8Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod8Button.GetComponentInChildren<Text>().text = "";
-                    }
-                    mod8Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
-                }        
-
-                if (game == 8)
-                {
-                    mod9Button.gameObject.SetActive(true);
-                    mod9Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
-                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                    {
-                        mod9Button.GetComponentInChildren<RawImage>().texture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                        mod9Button.GetComponentInChildren<Text>().text = "";
-                    }
-                    mod9Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
-                }
+                addTile(launchTilePrefab, ModTexture, ModTitle, Path.GetFileName(cgame));
 
                 game++;  //next game
             }
 
         }
 
-}
-    
+    }
+
+    public void addTile(GameObject Prefab, Texture TileTexture, string TileText, string ClickTarget)
+    {
+        GameObject launchTile = Instantiate(Prefab);
+        launchTile.transform.SetParent(GamesCanvas, false);
+        launchTile.GetComponentInChildren<RawImage>().texture = TileTexture;
+        launchTile.GetComponentInChildren<Text>().text = TileText;
+        launchTile.GetComponentInChildren<Button>().onClick.AddListener(delegate { TaskOnClick(ClickTarget); });
+    }
        
     public void TaskOnClick(string gamemode)
     {
