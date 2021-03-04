@@ -37,6 +37,8 @@ ScriptsOnlyBuild:
     - OVRSkeletonRenderer
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -209,9 +211,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13298}
     - Class: 114
-      Script: {instanceID: 15308}
+      Script: {instanceID: 15298}
     - Class: 114
-      Script: {instanceID: 24238}
+      Script: {instanceID: 23954}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
