@@ -8,7 +8,6 @@ using UnityEngine.EventSystems;
 
 public class Start_Lambda1VR : MonoBehaviour
 {
-
     public Texture hlVertical;
     public Texture hlHorizontal;
     public Texture bsVertical;
@@ -50,6 +49,7 @@ public class Start_Lambda1VR : MonoBehaviour
         else
         {
             Failtext.gameObject.SetActive(true);
+            return;
         }
 
 
@@ -84,20 +84,25 @@ public class Start_Lambda1VR : MonoBehaviour
                 }
 
                 //Dynamically add buttons for all mods found
-                ModTitle = Path.GetFileName(cgame);
-                ModTexture = null;
+                ModTitle = "";
                 if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
                 {
-                    ModTexture = LoadJPG("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                    ModTitle = "";
+                    ModTexture = LoadImg("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
+                } 
+                else if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".png"))
+                {
+                    ModTexture = LoadImg("/sdcard/xash/" + Path.GetFileName(cgame) + ".png");
+                } 
+                else
+                {
+                    ModTexture = null;
+                    ModTitle = Path.GetFileName(cgame);
                 }
                 addTile(launchTilePrefab, ModTexture, ModTitle, Path.GetFileName(cgame));
 
                 game++;  //next game
             }
-
         }
-
     }
 
     public void addTile(GameObject Prefab, Texture TileTexture, string TileText, string ClickTarget)
@@ -118,7 +123,6 @@ public class Start_Lambda1VR : MonoBehaviour
         StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
         writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game "  + gamemode);
         writer.Close();
-
 
         bool fail = false;
         string bundleId = "com.drbeef.lambda1vr"; // starting lambda1vr
@@ -147,12 +151,10 @@ public class Start_Lambda1VR : MonoBehaviour
         ca.Dispose();
         packageManager.Dispose();
         launchIntent.Dispose();
-
     }
 
-    public static Texture2D LoadJPG(string filePath)
+    public static Texture2D LoadImg(string filePath)
     {
-
         Texture2D tex = null;
         byte[] fileData;
 

@@ -223,7 +223,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13324}
     - Class: 114
-      Script: {instanceID: 22962}
+      Script: {instanceID: 55334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1062,4 +1062,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/LauncherScene.unity
-  playerPath: E:/Desktop/lambda1vr_launcher_mod.apk
+  playerPath: E:/Desktop/LambdaLauncherMod.apk
