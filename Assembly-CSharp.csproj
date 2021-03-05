@@ -76,6 +76,7 @@
      <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
      <Compile Include="Assets\Scripts\HoverFix.cs" />
      <Compile Include="Assets\Scripts\RefreshCmdLine.cs" />
+     <Compile Include="Assets\Scripts\ScrollRectOverride.cs" />
      <Compile Include="Assets\Scripts\Start_Custom.cs" />
      <Compile Include="Assets\Scripts\Start_Lambda1VR.cs" />
      <Compile Include="Assets\Scripts\avoidMSAA3.cs" />

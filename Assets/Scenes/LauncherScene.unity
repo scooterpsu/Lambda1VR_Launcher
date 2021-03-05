@@ -5291,7 +5291,6 @@ GameObject:
   - component: {fileID: 873481474}
   - component: {fileID: 873481475}
   - component: {fileID: 873481476}
-  - component: {fileID: 873481477}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -5356,19 +5355,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!65 &873481477
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873481473}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1127, y: 546, z: 1}
-  m_Center: {x: 563.5, y: -273, z: 0}
 --- !u!1 &876385591
 GameObject:
   m_ObjectHideFlags: 0
@@ -7499,7 +7485,7 @@ MonoBehaviour:
   pinchFinger: 1
   performSphereCastForGazepointer: 0
   matchNormalOnPhysicsColliders: 0
-  useLeftStickScroll: 1
+  useLeftStickScroll: 0
   leftStickDeadZone: 0.15
   useSwipeScroll: 1
   minSwipeMovement: 0
@@ -7873,6 +7859,7 @@ GameObject:
   - component: {fileID: 1326885591}
   - component: {fileID: 1326885590}
   - component: {fileID: 1326885589}
+  - component: {fileID: 1326885588}
   m_Layer: 5
   m_Name: Scroll View
   m_TagString: Untagged
@@ -7900,6 +7887,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: 1127, y: 546}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &1326885588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326885586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1127, y: 546, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1326885589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7909,7 +7909,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1326885586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Script: {fileID: 11500000, guid: e77608dfcd824214daa87a99f67eb601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 873481474}
@@ -7919,17 +7919,18 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 5
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 1244788321}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
-  m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 2
-  m_HorizontalScrollbarSpacing: -3
-  m_VerticalScrollbarSpacing: 1
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+  trackingSpace: {fileID: 0}
 --- !u!114 &1326885590
 MonoBehaviour:
   m_ObjectHideFlags: 0
