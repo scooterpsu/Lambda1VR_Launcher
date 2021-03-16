@@ -14,6 +14,7 @@ public class valuetext : MonoBehaviour
 
     public void ShowSliderValue()
     {
+        sliderUI.value = Mathf.Round(sliderUI.value * 100f) / 100f;
         string sliderMessage = "" + sliderUI.value;
         textSliderValue.text = sliderMessage;
     }

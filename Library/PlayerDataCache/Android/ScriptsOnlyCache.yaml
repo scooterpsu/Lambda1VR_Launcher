@@ -7,16 +7,14 @@ ScriptsOnlyBuild:
     - ControllerSelection.OVRRawRaycaster
     - HoverFix
     - ONSPSettings
+    - ParseCommandLine
     - QuestAppLauncher.ScrollRectOverride
-    - RefreshCmdLine
     - SettingsRotate
     - Start_Custom
     - Start_Lambda1VR
     - TalesFromTheRift.CanvasKeyboard
     - TalesFromTheRift.CanvasKeyboardASCII
     - avoidMSAA3
-    - createcommandline
-    - readcmdlinetxt
     - valuetext
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
@@ -171,65 +169,61 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12424}
     - Class: 114
       Script: {instanceID: 12426}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12444}
     - Class: 114
-      Script: {instanceID: 12446}
+      Script: {instanceID: 12514}
     - Class: 114
-      Script: {instanceID: 12516}
+      Script: {instanceID: 12576}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 12628}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 12634}
+      Script: {instanceID: 12648}
     - Class: 114
-      Script: {instanceID: 12650}
+      Script: {instanceID: 12652}
     - Class: 114
-      Script: {instanceID: 12654}
+      Script: {instanceID: 12662}
     - Class: 114
-      Script: {instanceID: 12656}
+      Script: {instanceID: 12760}
     - Class: 114
-      Script: {instanceID: 12666}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 12830}
     - Class: 114
-      Script: {instanceID: 12776}
+      Script: {instanceID: 12878}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12920}
     - Class: 114
-      Script: {instanceID: 12882}
+      Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 12984}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 13032}
     - Class: 114
-      Script: {instanceID: 12990}
+      Script: {instanceID: 13056}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 13060}
+      Script: {instanceID: 13114}
     - Class: 114
-      Script: {instanceID: 13082}
+      Script: {instanceID: 13194}
     - Class: 114
-      Script: {instanceID: 13196}
+      Script: {instanceID: 13262}
     - Class: 114
-      Script: {instanceID: 13264}
+      Script: {instanceID: 13280}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13292}
     - Class: 114
-      Script: {instanceID: 13284}
+      Script: {instanceID: 13322}
     - Class: 114
-      Script: {instanceID: 13296}
-    - Class: 114
-      Script: {instanceID: 13326}
-    - Class: 114
-      Script: {instanceID: 23702}
+      Script: {instanceID: 22956}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -455,7 +449,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 3de9f444a57222186cc09291922b8c26
+      Hash: 9dc7b5b8d0e26a78e67917adb29a7ce5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: avoidMSAA3
@@ -695,12 +689,6 @@ ScriptsOnlyBuild:
     className: OVRSkeletonRenderer
   - hash:
       serializedVersion: 2
-      Hash: 998c3e2458fc71dc1a264567581af3d8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RefreshCmdLine
-  - hash:
-      serializedVersion: 2
       Hash: 0182aac3fd8bfdeff27021b9548c3a6a
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -813,12 +801,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRSceneSampleController
-  - hash:
-      serializedVersion: 2
-      Hash: c8ba51241469e6e1108347ce70ef19db
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: readcmdlinetxt
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -959,10 +941,16 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 5f3019e9f7fac04a3c7654de34d4ff41
+      Hash: 68ce355aaeeaa10ee66b3fab2e2f21a0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: valuetext
+  - hash:
+      serializedVersion: 2
+      Hash: a9c25452c20ba763c7bb39d108aaf603
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParseCommandLine
   - hash:
       serializedVersion: 2
       Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
@@ -1035,12 +1023,6 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRSkeleton
-  - hash:
-      serializedVersion: 2
-      Hash: a9c25452c20ba763c7bb39d108aaf603
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: createcommandline
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
