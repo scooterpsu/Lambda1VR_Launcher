@@ -7,11 +7,10 @@ public class avoidMSAA3 : MonoBehaviour
 {
 
     public Slider MSAAslider;
-    private Text textSliderValue;
+    public Text textSliderValue;
 
     void Start()
     {
-        textSliderValue = GetComponent<Text>();
         ShowSliderValue();
     }
 
@@ -24,6 +23,5 @@ public class avoidMSAA3 : MonoBehaviour
         }
         string sliderMessage = "" + MSAAslider.value;
         textSliderValue.text = sliderMessage;
-        
     }
 }

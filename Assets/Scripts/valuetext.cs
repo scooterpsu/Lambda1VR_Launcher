@@ -5,11 +5,10 @@ using UnityEngine.UI;
 public class valuetext : MonoBehaviour
 {
     public Slider sliderUI;
-    private Text textSliderValue;
+    public Text textSliderValue;
 
     void Start()
     {
-        textSliderValue = GetComponent<Text>();
         ShowSliderValue();
     }
 
