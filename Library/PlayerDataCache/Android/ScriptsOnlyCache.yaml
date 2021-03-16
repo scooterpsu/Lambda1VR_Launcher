@@ -68,6 +68,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
@@ -126,6 +127,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11482}
     - Class: 114
       Script: {instanceID: 11498}
+    - Class: 114
+      Script: {instanceID: 11500}
     - Class: 114
       Script: {instanceID: 11532}
     - Class: 114
@@ -223,7 +226,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13324}
     - Class: 114
-      Script: {instanceID: 55334}
+      Script: {instanceID: 74912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
