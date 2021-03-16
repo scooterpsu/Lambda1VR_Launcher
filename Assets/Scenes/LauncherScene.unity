@@ -5355,6 +5355,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!1 &876105391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1172613920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &876105397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876105391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d660ee5a94a794cae10c4756861969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &876385591
 GameObject:
   m_ObjectHideFlags: 0
@@ -5638,8 +5656,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackingSpace: {fileID: 238580637}
   primaryButton: 8192
-  secondaryButton: 1024
-  tertiaryButton: 1
+  secondaryButton: 0
+  tertiaryButton: 0
   primaryPinchFinger: 1
   secondaryPinchFinger: 2
   tertiaryPinchFinger: 3
@@ -6411,8 +6429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackingSpace: {fileID: 238580637}
   primaryButton: 8192
-  secondaryButton: 1024
-  tertiaryButton: 1
+  secondaryButton: 0
+  tertiaryButton: 0
   primaryPinchFinger: 1
   secondaryPinchFinger: 2
   tertiaryPinchFinger: 3
