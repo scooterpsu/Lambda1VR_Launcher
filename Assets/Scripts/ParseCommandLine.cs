@@ -14,8 +14,9 @@ public class ParseCommandLine : MonoBehaviour
     public Slider MSAA;
     public Slider CPU;
     public Slider GPU;
+    public GameObject LoggingToggle;
 
-    private string GameName;
+    private string GameName = "valve";
 
     void Start()
     {
@@ -26,43 +27,57 @@ public class ParseCommandLine : MonoBehaviour
     {
         StreamReader cmdFileRead = new StreamReader("/sdcard/xash/commandline.txt");
         string commandLineText = cmdFileRead.ReadLine();
-        statusLine.text = "commandline.txt loaded";   
-        string[] commandWords = commandLineText.Split(' ');
-        int i = 0;
-        foreach (string word in commandWords)
+        statusLine.text = "commandline.txt loaded";
+        if (string.IsNullOrEmpty(commandLineText) == false)
         {
-            if (word == "--supersampling")
+            string[] commandWords = commandLineText.Split(' ');
+            int i = 0;
+            foreach (string word in commandWords)
             {
-                SSSlider.value = float.Parse(commandWords[i + 1]);
-            }
-            else if (word == "--msaa")
-            {
-                MSAA.value = int.Parse(commandWords[i + 1]);
-            }
-            
-            if (word == "--cpu")
-            {
-                CPU.value = int.Parse(commandWords[i + 1]);
-            }
-            
-            if (word == "--gpu")
-            {
-                GPU.value = int.Parse(commandWords[i + 1]);
-            }
-            
-            if (word == "-game")
-            {
-                GameName = commandWords[i + 1];
-                UpdateCommandlineTXT();
-            }
+                if (word == "--supersampling")
+                {
+                    SSSlider.value = float.Parse(commandWords[i + 1]);
+                }
+                else if (word == "--msaa")
+                {
+                    MSAA.value = int.Parse(commandWords[i + 1]);
+                }
 
-            i++;
+                if (word == "--cpu")
+                {
+                    CPU.value = int.Parse(commandWords[i + 1]);
+                }
+
+                if (word == "--gpu")
+                {
+                    GPU.value = int.Parse(commandWords[i + 1]);
+                }
+
+                if (word == "-game")
+                {
+                    GameName = commandWords[i + 1];
+                    UpdateCommandlineTXT();
+                }
+
+                if (word == "-log")
+                {
+                    LoggingToggle.GetComponent<Toggle>().isOn = true;
+                    UpdateCommandlineTXT();
+                }
+
+                i++;
+            }
         }
     }
 
     public void UpdateCommandlineTXT()
     {
-        string commandLine = "xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game " + GameName;
+        string commandLine = "xash3d ";
+        if (LoggingToggle.GetComponent<Toggle>().isOn)
+        {
+            commandLine += "-log ";
+        }
+        commandLine += "--supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game " + GameName;
         customLine.text = commandLine;
     }
 

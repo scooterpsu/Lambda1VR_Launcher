@@ -31,6 +31,7 @@ public class Start_Lambda1VR : MonoBehaviour
     public GameObject ShowMods;
     public GameObject MuteBGM;
     public AudioSource audioSource;
+    public GameObject LoggingToggle;
 
     void Start()
     {
@@ -139,7 +140,13 @@ public class Start_Lambda1VR : MonoBehaviour
         //Debug.Log("Game loaded " + gamemode);
 
         StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
-        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game "  + gamemode);
+        string commandLine = "xash3d ";
+        if (LoggingToggle.GetComponent<Toggle>().isOn)
+        {
+            commandLine += "-log ";
+        }
+        commandLine += "--supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game " + gamemode;
+        writer.WriteLine(commandLine);
         writer.Close();
 
         bool fail = false;
