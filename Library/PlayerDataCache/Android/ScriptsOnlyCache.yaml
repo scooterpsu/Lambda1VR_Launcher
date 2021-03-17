@@ -223,7 +223,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13322}
     - Class: 114
-      Script: {instanceID: 104418}
+      Script: {instanceID: 27576}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -617,7 +617,7 @@ ScriptsOnlyBuild:
     className: OVRResetOrientation
   - hash:
       serializedVersion: 2
-      Hash: d5d07356e71cdcc50f976641a419c211
+      Hash: 90d24d05605ce5f0f2d4f17e5e245a9d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Start_Lambda1VR

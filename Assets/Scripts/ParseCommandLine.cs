@@ -70,7 +70,6 @@ public class ParseCommandLine : MonoBehaviour
     {
         StreamWriter cmdFileWrite = new StreamWriter("/sdcard/xash/commandline.txt");
         cmdFileWrite.WriteLine(customLine.text);
-        cmdFileWrite.Flush();
         cmdFileWrite.Close();
         statusLine.text = "commandline.txt saved";
     }

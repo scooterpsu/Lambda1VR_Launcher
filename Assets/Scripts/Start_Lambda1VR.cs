@@ -30,9 +30,11 @@ public class Start_Lambda1VR : MonoBehaviour
 
     public GameObject ShowMods;
     public GameObject MuteBGM;
+    public AudioSource audioSource;
 
     void Start()
     {
+        LoadSettings();
         scanGames();
     }
 
@@ -181,5 +183,26 @@ public class Start_Lambda1VR : MonoBehaviour
             tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
         }
         return tex;
+    }
+
+    public void LoadSettings()
+    {
+        if (File.Exists("/sdcard/xash/launcher.cfg"))
+        {
+            StreamReader cfgFileRead = new StreamReader("/sdcard/xash/launcher.cfg");
+            string cfgText = cfgFileRead.ReadLine();
+            cfgFileRead.Close();
+            string[] readConfig = cfgText.Split(',');
+            ShowMods.GetComponent<Toggle>().isOn = bool.Parse(readConfig[0]);
+            MuteBGM.GetComponent<Toggle>().isOn = bool.Parse(readConfig[1]);
+            audioSource.GetComponent<AudioSource>().mute = bool.Parse(readConfig[1]);
+        }
+    }
+
+    public void SaveSettings()
+    {
+        StreamWriter cfgFileWrite = new StreamWriter("/sdcard/xash/launcher.cfg");
+        cfgFileWrite.WriteLine(ShowMods.GetComponent<Toggle>().isOn+","+ MuteBGM.GetComponent<Toggle>().isOn);
+        cfgFileWrite.Close();
     }
 }
