@@ -28,8 +28,22 @@ public class Start_Lambda1VR : MonoBehaviour
     public Text Failtext;
     private int counter;
 
+    public GameObject ShowMods;
+    public GameObject MuteBGM;
+
     void Start()
     {
+        scanGames();
+    }
+
+    public void scanGames() 
+    {
+        //Clear out posters and tiles (if re-run)
+        foreach (Transform child in GamesCanvas)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+
         //Check what game is even installed
         if (Directory.Exists("/sdcard/xash/valve") || Directory.Exists("/sdcard/xash/gearbox") || Directory.Exists("/sdcard/xash/bshift"))
         {
@@ -52,55 +66,57 @@ public class Start_Lambda1VR : MonoBehaviour
             return;
         }
 
-
-        string[] customgames = Directory.GetDirectories("/sdcard/xash");  // check for unsupported games
-        int game = 0;
-        foreach (string cgame in customgames)
+        if (ShowMods.GetComponent<Toggle>().isOn)
         {
-            //Debug.Log(Path.GetFileName(cgame));            
-            if (Path.GetFileName(cgame) != "gearbox" & Path.GetFileName(cgame) != "valve" & Path.GetFileName(cgame) != "bshift")
+            string[] customgames = Directory.GetDirectories("/sdcard/xash");  // check for unsupported games
+            int game = 0;
+            foreach (string cgame in customgames)
             {
-                if (game == 0)
+                //Debug.Log(Path.GetFileName(cgame));            
+                if (Path.GetFileName(cgame) != "gearbox" & Path.GetFileName(cgame) != "valve" & Path.GetFileName(cgame) != "bshift")
                 {
-                    //Clear out posters
-                    foreach (Transform child in GamesCanvas)
+                    if (game == 0)
                     {
-                        GameObject.Destroy(child.gameObject);
+                        //Clear out posters
+                        foreach (Transform child in GamesCanvas)
+                        {
+                            GameObject.Destroy(child.gameObject);
+                        }
+
+                        //Add tiles instead
+                        if (Directory.Exists("/sdcard/xash/bshift"))
+                        {
+                            addTile(launchTilePrefab, bsHorizontal, "", "bshift");
+                        }
+                        if (Directory.Exists("/sdcard/xash/valve"))
+                        {
+                            addTile(launchTilePrefab, hlHorizontal, "", "valve");
+                        }
+                        if (Directory.Exists("/sdcard/xash/gearbox"))
+                        {
+                            addTile(launchTilePrefab, ofHorizontal, "", "gearbox");
+                        }
                     }
 
-                    //Add tiles instead
-                    if (Directory.Exists("/sdcard/xash/bshift"))
+                    //Dynamically add buttons for all mods found
+                    ModTitle = "";
+                    if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
                     {
-                        addTile(launchTilePrefab, bsHorizontal, "", "bshift");
+                        ModTexture = LoadImg("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
                     }
-                    if (Directory.Exists("/sdcard/xash/valve"))
+                    else if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".png"))
                     {
-                        addTile(launchTilePrefab, hlHorizontal, "", "valve");
+                        ModTexture = LoadImg("/sdcard/xash/" + Path.GetFileName(cgame) + ".png");
                     }
-                    if (Directory.Exists("/sdcard/xash/gearbox"))
+                    else
                     {
-                        addTile(launchTilePrefab, ofHorizontal, "", "gearbox");
+                        ModTexture = null;
+                        ModTitle = Path.GetFileName(cgame);
                     }
+                    addTile(launchTilePrefab, ModTexture, ModTitle, Path.GetFileName(cgame));
+
+                    game++;  //next game
                 }
-
-                //Dynamically add buttons for all mods found
-                ModTitle = "";
-                if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg"))
-                {
-                    ModTexture = LoadImg("/sdcard/xash/" + Path.GetFileName(cgame) + ".jpg");
-                } 
-                else if (File.Exists("/sdcard/xash/" + Path.GetFileName(cgame) + ".png"))
-                {
-                    ModTexture = LoadImg("/sdcard/xash/" + Path.GetFileName(cgame) + ".png");
-                } 
-                else
-                {
-                    ModTexture = null;
-                    ModTitle = Path.GetFileName(cgame);
-                }
-                addTile(launchTilePrefab, ModTexture, ModTitle, Path.GetFileName(cgame));
-
-                game++;  //next game
             }
         }
     }
